@@ -1,12 +1,22 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');    
+
+:root {
+
+    --fonte1: arial, times, corier;
+    --fonte2: 'Tilt Prism', cursive;
+    --fonte3: 'Dancing Script', cursive;
+}
+
 *{
     margin: 0px;
     padding: 0px;
 }
 
-html, body{
-
+html, body{ 
+    font-family: var(--fonte3)
     min-height: 100vh;
     background-color: white;
 }
@@ -15,11 +25,14 @@ header {
     background-color: black;
     color: white;
     text-align: center;
+
 }
 
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 5vw;
  
 }
 header > p{
@@ -35,10 +48,12 @@ header a:hover, footer a{
     text-decoration: underline;
 }
 section{
+    font-family: var(--fonte3);
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-size: 2em;
 }
 section.normal {
     background-color: white;
@@ -50,7 +65,7 @@ section.imagem {
     color:rgb(243, 237, 237);
 }
 section.imagem > p{
-    width: 400px;
+    display: inline-block;
     background-color: black;
 
 }
