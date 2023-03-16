@@ -13,6 +13,7 @@
             width: 550px;
             padding: 8px;
             border-collapse: collapse;
+            position: relative;
         }
         td{
             border: 1px solid black;
@@ -25,11 +26,19 @@
             font-size: x-large;
             border: 1px solid black;
             height: 50px;
-            background-image:url(https://ciclovivo.com.br/wp-content/uploads/2018/10/iStock-536613027-1024x683.jpg) ;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background: rgb(162, 17, 138);
         }
         tfoot{
             border: 2px solid rgb(0, 0, 0);
             background-color: rgb(152, 201, 201);
+        }
+        tbody > tr:nth-child(2n){
+            background-color:rgba(38, 87, 234, 0.867);
+
         }
         caption{
             font-size: 1.5em;
@@ -52,7 +61,7 @@
                 tr, td, th
     -->
     <table>
-        <caption>População das unidades federativas</caption>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
                 <th scope="col"> Estado</th>
