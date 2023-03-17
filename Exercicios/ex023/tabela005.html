@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pr-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 005</title>
+    <style>
+        body{
+            font-family:Verdana, Geneva, Tahoma, sans-serif
+        }
+        caption{
+            font-weight: bold;
+            color: rgba(228, 120, 138, 0.723);
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        td{
+            border: 3px solid black;
+            text-align: center;
+            padding: 8px;
+        }
+        th{
+            border: 3px solid black;
+            background-color: rgb(128, 197, 116);
+        }
+        col.cnome,.cidade{
+            background-color: rgb(127, 133, 242);
+        }
+        col.csexo,.cprof{
+            background-color: rgb(238, 120, 120);
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>Tabela base</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">sexo</th>
+            <th scope="col">idade</th>
+            <th scope="col">profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria Braga</td>
+            <td>F</td>
+            <td>25</td>
+            <td>jornalista</td>
+        </tr>
+        <tr>
+            <td>Juninho do pop</td>
+            <td>trans</td>
+            <td>24</td>
+            <td>Influencer do pop</td>
+        </tr>
+        <tr>
+            <td>Michael jaquisom</td>
+            <td>M</td>
+            <td>462</td>
+            <td>Herdeiro</td>
+        </tr>
+        <tr>
+            <td>Kratus</td>
+            <td>Não binário</td>
+            <td>0,333333</td>
+            <td>Deus</td>
+        </tr>
+        <tr>
+            <td>Gocú</td>
+            <td>Assexuado</td>
+            <td>33</td>
+            <td>Anime</td>
+        </tr>
+        <tr>
+            <td>Superman</td>
+            <td>H</td>
+            <td>36</td>
+            <td>Superheroi</td>
+        </tr>
+    </table>
+</body>
+</html>
