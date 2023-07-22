@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de fomrulário</title>
+</head>
+<body>
+    <h1>Cara de Amelha</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+    <p>
+        <label for="iest">Estado</label>
+        <select name="estado" id="iest">
+            <optgroup label="Refgião suldeste">
+                <option value="MG">Minas Gerais</option>
+                <option value="RJ">Rio de Janeiro</option>
+            </optgroup>
+            <optgroup label="Outros estados">
+                <option value="PA">Pará</option>
+                <option value="KKK">Rio Grande do Sul</option>
+            </optgroup>
+
+        </select>
+
+    </p>
+    <p>
+        <label for="iprof">Profissão</label>
+        <input type="text" name="prof" id="iprof" list="lstprof">
+        <datalist id="lstprof">
+            <option value="abc"> kkk </option>
+            <option value="abc"> bbb </option>
+            <option value="abc"> ccc </option>
+        </datalist>
+        
+    </p>
+    <p>
+        <label for="imsg" > Mensagem</label><br>
+        <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="Escreva aqui"></textarea>
+    </p>
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>
+</form>
+</body>
+</html>
