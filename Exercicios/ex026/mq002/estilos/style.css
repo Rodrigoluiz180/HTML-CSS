@@ -1,3 +1,21 @@
 @charset "UTF-8";
 
 /*MODO PADRÃO (TODOS)*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+html, body{
+    width: 100vw;
+    height: 100vw;
+    background-color: rgb(73, 45, 255);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+h1{
+    color: white;
+    text-shadow: 3px, 3px, 0px blue;
+    padding: 10px;
+}
