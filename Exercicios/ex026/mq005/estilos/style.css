@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+   margin: 0%;
+   padding: 0px;
+}
+
+body{
+
+    background-image: url("https://img.freepik.com/fotos-gratis/respingo-colorido-abstrato-3d-background-generativo-ai-background_60438-2509.jpg?w=1060&t=st=1691192918~exp=1691193518~hmac=643e82aad651b70959e5cedff774583eefda30ce7233d760759101b381c06311");
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+header{
+    background-color: rgb(143, 143, 143);
+
+}
+header h1{
+    padding: 10px;
+    text-align: center;
+}
+menu{
+    display: block;
+}
+menu ul{
+    list-style-type: none;
+}
+menu > ul > li > a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(160, 160, 160);
+    color: antiquewhite;
+}
+main  {
+    background-color: rgba(240, 248, 255, 0.819);
+    text-align: center;
+    margin: 80px;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+
+}
+menu > ul > li > a:hover{
+    background-color: rgb(255, 255, 255);
+}
